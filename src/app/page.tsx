@@ -693,7 +693,7 @@ export default function Home() {
                     className="w-full h-48 object-cover rounded-lg"
                   />
                   <button
-                    onClick={removeCustomImage}
+                    onClick={() => removeCustomImage()}
                     className="absolute top-2 right-2 bg-red-500 text-white rounded-full p-2 hover:bg-red-600"
                   >
                     <X className="h-4 w-4" />
